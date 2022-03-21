@@ -1,2 +1,2 @@
 This is going to be my own personal repository of my knowledge. 
-[[Lists]]
+[[description]](notes/list.md)
