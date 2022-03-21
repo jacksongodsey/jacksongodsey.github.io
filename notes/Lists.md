@@ -1,3 +1,9 @@
+- [Lists](#lists)
+  - [10.1 Lists](#101-lists)
+  - [Accessing List elements](#accessing-list-elements)
+    - [What is an index?](#what-is-an-index)
+    - [Common List operations](#common-list-operations)
+
 # Lists
 
 ## 10.1 Lists
