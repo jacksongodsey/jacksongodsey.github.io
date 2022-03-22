@@ -93,7 +93,7 @@ def play_note(note_tuple):
             time.sleep(j)
             player.note_off(i, k)
 
-# Calling the function. 
+# Calling the function.
 play_note(note_tuple)
 
 ## clean up player and pygame objects

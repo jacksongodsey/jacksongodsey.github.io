@@ -62,4 +62,4 @@ For example when it comes to code editors I have used too many:
 
 
 ## PSA
-This is going to be my own personal repository of knowledge as I work my way through a computer science degree at the University of Alaska Anchorage. I for one do not care if you wish to learn from my notes, but do not simply take what I have written and submit it. **_Especially_** if you are a student at UAA. I will post my solutions to assignments and labs I have, but I will not post the notes. This is because I tend to write pretty verbatim notes and I do not want to run into plagarism. 
+This is going to be my own personal repository of knowledge as I work my way through a computer science degree at the University of Alaska Anchorage. I for one do not care if you wish to learn from my content, but do not simply take what I have written and submit it. **_Especially_** if you are a student at UAA. I will post my solutions to assignments and labs I have, but I will not post the notes. This is because I tend to write pretty verbatim notes and I do not want to run into plagarism. 
