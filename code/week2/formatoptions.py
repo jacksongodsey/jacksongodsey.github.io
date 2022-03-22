@@ -1,5 +1,0 @@
-age = int(input("Enter your age: "))
-print("\nAge -->")
-print("value:", age)
-print("type: {}".format(type(age)))
-print(f"id: {id(age)}")
