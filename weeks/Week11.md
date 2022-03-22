@@ -5,5 +5,7 @@ This week is about lists.
 
 [Lists](Lists.md)
 
+[List Methods](ListMethods.md)
+
 ## Week 11 labs:
 
