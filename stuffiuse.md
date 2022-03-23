@@ -1,8 +1,7 @@
-# The tools and software I use. 
-- [The tools and software I use.](#the-tools-and-software-i-use)
-  - [Tools I use:](#tools-i-use)
-    - [My beliefs when it comes to software:](#my-beliefs-when-it-comes-to-software)
-    - [Now what tools do I **actually** use:](#now-what-tools-do-i-actually-use)
+# The tools and software I use. <!-- omit in toc -->
+- [Tools I use:](#tools-i-use)
+  - [My beliefs when it comes to software:](#my-beliefs-when-it-comes-to-software)
+  - [Now what tools do I **actually** use:](#now-what-tools-do-i-actually-use)
 ## Tools I use:
 I use a specific set of tools to help improve my workflow. The reason I use the tools I do stems from my personal beliefs and opinions. 
 ### My beliefs when it comes to software:
