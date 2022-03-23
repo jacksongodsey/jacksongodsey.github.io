@@ -1,19 +1,18 @@
-- [Bio about me:](#bio-about-me)
-- [Tools I use:](#tools-i-use)
-  - [My beliefs when it comes to software:](#my-beliefs-when-it-comes-to-software)
-  - [Now what tools do I **actually** use:](#now-what-tools-do-i-actually-use)
-  - [NEED TO ADD EVERYTHING ELSE](#need-to-add-everything-else)
-- [CSCEA101](#cscea101)
-  - [Week 11:](#week-11)
-- [PSA](#psa)
 
+## Attention <!-- omit in toc -->
+This page is not complete I am still learning markdown and html so I apologize.
+
+## Table of Contents <!-- omit in toc -->
+- [CSCEA101](#cscea101)
+- [The tools and software I use](#the-tools-and-software-i-use)
+- [PSA](#psa)
 ## CSCEA101
 
-- ### Week 11:
+- ### Week 11
   - [Week 11 Content Map](weeks/Week11.md)
 
 
-## The tools and software I use:
+## The tools and software I use
 I use a lot of different software here is a link to a [document](stuffiuse.md) explaining what I use and why!
 
 ## PSA
