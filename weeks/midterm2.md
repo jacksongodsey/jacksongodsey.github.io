@@ -12,7 +12,7 @@
     - [Question 8:](#question-8)
 
 ## Links to important documents
-Here is a link to the powerpoint in pdf format should you want it. [midterm2 pdf](../assets/midterm2.pdf)
+Here is a link to the powerpoint that contains the questions I was solving for in pdf format should you want it. [midterm2 pdf](../assets/midterm2.pdf)
 
 Here is the link to the python file that contains the code I wrote to solve these questions. It will also be written in source blocks below.
 [midterm2.py](../code/midterm2.py)
