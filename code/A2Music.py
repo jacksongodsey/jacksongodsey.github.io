@@ -6,7 +6,7 @@
 # Description: This program plays a little song
 # Inputs: Has no inputs the note's are already in the program.
 # Outputs: Plays the song and prints the note as they are played.
-# It also switches the instrument at a certain point in the song. 
+# It also switches the instrument at a certain point in the song.
 #########################################
 
 # Importing pygame, pygame midi module, and time.
@@ -32,7 +32,7 @@ player = pygame.midi.Output(get_output())
 player.set_instrument(57)
 
 note_tuple = [
-    # Note, duration, velocity/volume, Description, instrument 
+    # Note, duration, velocity/volume, Description, instrument
     (69, 0.50, 127, 'A', 57),
     (69, 0.50, 127, 'A', 57),
     (69, 0.50, 127, 'A', 57),
@@ -79,13 +79,13 @@ note_tuple = [
 def play_note(note_tuple):
     '''
     Description: This function plays a note.
-    Inputs: The function takes a tuple of length five as an input. 
+    Inputs: The function takes a tuple of length five as an input.
     Returned value: None it plays a note.
-    Preconditions: The tuple must have a length of five. 
+    Preconditions: The tuple must have a length of five.
     '''
     # The four loop takes each note in the tuple and seperates the five values
     # into variables. It prints what the note is, sets the instrument, and
-    # plays the note with all it's associated options. 
+    # plays the note with all it's associated options.
     for i, j, k, l, m in note_tuple:
             print(l)
             player.set_instrument(m)

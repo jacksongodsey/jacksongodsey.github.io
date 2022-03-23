@@ -42,10 +42,9 @@ For example when it comes to code editors I have used too many:
 - Lastly I came back to Visual Studio Code (kind of):
   - The reason I chose to switch to Visual Studio Code is long, but in brief I needed to uncomplicate my setup. I had to many things going on, and in addition I wanted to start using Foam as my note taking system. It also **finally** had a native m1 mac build which made it run as fast as any other editor.
   - I stayed on regular Visual Studio Code for around three days before switching to VSCodium which is a fork of Visual Studio Code. The reason being is that Visual Studio Code is open source, but when you download it you technically get the version Microsoft builds which has telemetry. VSCodium simply provides prebuilt binaries of Visual Studio Code without the telemetry. It unfortunately does not have a native m1 mac build, but I was able to build it myself with arm support and now it runs like lightning. It's the best of both worlds, and I am able to use Foam. 
-  
+
   ### NEED TO ADD EVERYTHING ELSE
   - TODO
-  
 
 ## CSCEA101
 
