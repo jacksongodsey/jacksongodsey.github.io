@@ -12,15 +12,15 @@
 # can be successfuly spelled with other words that it will output those. If not -
 # the program outputs the phrase "no word found". After that is completted the program -
 # outputs three hardcoded words, and what they can be unscrambled too if at all possible.
+# I got help figuring out the assignment from Mika or Winter-Stark in the UAA Computer Science and Engineering discord.
+# I was having a hard time with figuring out the functions and she helped point in the right direction.
 #########################################
-
 words = open('words.txt', 'r')
 contents = words.read()
 words.close()
 
 contents.strip()
 word_list = contents.split()
-
 
 def build_dict(word_list):
     '''
@@ -55,22 +55,21 @@ def unscrambled(jumble, sorted_dict):
     temp = ''.join(sorted(jumble))
     return sorted_dict.get(temp)
 
-jumble = input()
+scrambled = input("Please enter a jumble to solve: ")
 sorted_dict = build_dict(word_list)
-output = unscrambled(jumble, sorted_dict)
+output = unscrambled(scrambled, sorted_dict)
 
 if output == None:
-        print('No word found')
+    print(f'No word found {scrambled}')
 else:
-    print(f'{jumble} unscrambles to: {output}')
+    print(f'{scrambled} unscrambles to: {output}')
 
-hardcoded_list = ['enost', 'aaabcs', 'asewes']
+hardcoded_list = ['asewes', 'enost', 'aaabcs']
 
 for i in range(len(hardcoded_list)):
-    jumble = hardcoded_list[i]
-    sorted_dict = build_dict(word_list)
-    output = unscrambled(jumble, sorted_dict)
+    scrambled = hardcoded_list[i]
+    output = unscrambled(scrambled, sorted_dict)
     if output == None:
-        print('No word found')
+        print(f'No word found {scrambled}')
     else:
-        print(f'{jumble} unscrambles to: {output}')
+        print(f'{scrambled} unscrambles to: {output}')

@@ -8,31 +8,16 @@
 #
 #########################
 
-import pygame.midi
-import time
-pygame.midi.init()
-player = pygame.midi.Output(5)
-player.set_instrument(0)
-note_list = (
-    (56, 0.5, 127),
-    (56, 0.5, 127),
-    (54, 1.0, 127),
-    (54, 1.0, 127),
-    (54, 1.0, 127),
-    (39, 1.0, 127),
-    (39, 1.0, 127),
-    (39, 1.0, 127),
-    (56, 0.5, 127),
-    (54, 1.0, 127),
-    (54, 1.0, 127),
-)
-def play_music(note_list):
-    for x, y, z in note_list:
-        player.note_on(x, z)
-        time.sleep(y)
-        player.note_off(x,z)
+user_input = input()
+entries = user_input.split(',')
+country_pop = {}
 
-play_music(note_list)
-
-del player
-pygame.midi.quit()
+for pair in entries:
+    split_pair = pair.split(':')
+    country_pop[split_pair[0]] = split_pair[1]
+    # country_pop is a dictionary, Ex: { 'Germany':'82790000', 'France':'67190000' }
+    for i in country_pop.keys():
+        country = i
+    for i in country_pop.values():
+        pop = i
+    print(country, 'has', pop, 'people.')
