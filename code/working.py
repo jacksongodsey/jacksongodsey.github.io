@@ -1,24 +1,15 @@
-class PhonePlan:
-    # FIXME add constructor
+# Split input into 2 parts: name and age
+parts = input().split()
+name = parts[0]
+while name != '-1':
+    # FIXME: The following line will throw ValueError exception.
+    #        Insert try/except blocks to catch the exception.
+    try:
+        age = int(parts[1]) + 1
+    except:
+        age = 0
+    print(f'{name} {age}')
 
-    def __init__(self, num_mins = 0, num_messages = 0):
-        self.num_mins = num_mins
-        self.num_messages = num_messages
-
-    def print_plan(self):
-        print('Mins:', self.num_mins, end=' ')
-        print('Messages:', self.num_messages)
-
-
-my_plan = PhonePlan(int(input()), int(input()))
-dads_plan = PhonePlan()
-moms_plan = PhonePlan(int(input()))
-
-print('My plan...', end=' ')
-my_plan.print_plan()
-
-print('Dad\'s plan...', end=' ')
-dads_plan.print_plan()
-
-print('Mom\'s plan...', end= ' ')
-moms_plan.print_plan()
+    # Get next line
+    parts = input().split()
+    name = parts[0]
