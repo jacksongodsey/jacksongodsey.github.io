@@ -29,7 +29,6 @@ def create_girl_list():
         girl_list.append(name)
         name = ''
     return girl_list
-# comment 1
 
 def play_game(boy_list, girl_list):
     random_number = random.randint(0, 999)
