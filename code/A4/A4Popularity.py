@@ -15,7 +15,7 @@ def create_boy_list():
         boy_list.append(name)
         name = ''
     return boy_list
-
+    
 def create_girl_list():
     girls = open('girlnames2015.txt', 'r')
     contents_girls = girls.read()
