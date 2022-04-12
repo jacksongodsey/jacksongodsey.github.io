@@ -60,7 +60,7 @@ girl_list = create_girl_list()
 
 play = play_game(boy_list, girl_list)
 if play == None:
-    print('Goodbye! Plus')
+    print('Goodbye!')
 
 
 
