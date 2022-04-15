@@ -1,7 +1,7 @@
 # gonotes
 
 ## For loops
-For loops evaluate until the boolean condition is false
+For loops evaluate until the boolean condition is false. in the case below i < 10 is the boolean condition
 ```go
 package main
 
