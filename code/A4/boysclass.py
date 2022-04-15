@@ -3,5 +3,3 @@ class bnames:
         self.rank = rank
         self.name = name
         self.births = births
-
-
