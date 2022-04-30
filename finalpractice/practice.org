@@ -1,0 +1,92 @@
+#+TITLE: practice for final exam
+#+AUTHOR: Jackson Godsey
+#+OPTIONS: toc:nil title:t
+
+* Class stuff
+#+begin_src python
+class AlaskaToys:
+  def __init__(self, id, type, name, season):
+    self.id = id
+    self.type = type
+    self.name = name
+    self.season = season
+ toy1 = AlaskaToys(2, 'Wheel', 'ATV', 'Fall')
+ print('{} {} {} {}'.format(toy1.id, toy1.type, toy1.name, toy1.season))
+#+end_src
+** What is the class?
+*** The class is ~AlaskaToys~
+** What is the instance?
+*** The instance is the ~toy1~ object
+
+
+* Try block
+#+begin_src python
+try:
+  a = 4
+  b = 5
+  print(c)
+except:
+  print("What is C?")
+#+end_src
+** What is the result  of this code?
+*** The except block is ran because the variable ~c~ is not defined
+
+
+* Opening a file
+#+begin_src python
+filedate = open('somefile.txt')
+#+end_src
+
+* Print contents of a file
+#+begin_src python
+Contents of file 'data.txt':
+Alex
+25
+
+thedata = open('data.txt')
+data = thedata.read()
+print(data)
+thedata.close()
+
+# Get specific items from the file
+
+Contents of file 'data.txt':
+Alex
+25
+
+# gets alex from the file
+thedata = open('data.txt')
+data = thedata.readline()
+print(data)
+thedata.close()
+#+end_src
+
+* What is a ~csv~ file?
+** Comma Seperated Values
+*** Ex. ~a, b, c~
+
+* Get data from a ~csv~ file
+#+begin_src python
+Contents of file 'data.csv':
+Price, Pound, Cost
+5.29, 3.5, 18.52
+15.95, 1.15, 18.34
+
+import csv
+with open('data.csv', 'r+') as thedata:
+  rowdata = csv.reader(thedata)
+  for row in rowdata:
+    print(row)
+#+end_src
+
+
+* Plot data
+#+begin_src python
+num = [60, 70, 80, 90]
+grade = ['D', 'C', 'B', 'A']
+
+import numpy as num
+import matplotlib.pyplot as mathplot
+mathplot.plot(num, grade)
+mathplot.show()
+#+end_src

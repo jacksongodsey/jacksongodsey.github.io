@@ -1,0 +1,82 @@
+% Created 2022-04-26 Tue 16:37
+% Intended LaTeX compiler: pdflatex
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{longtable}
+\usepackage{wrapfig}
+\usepackage{rotating}
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{capt-of}
+\usepackage{hyperref}
+\author{Jackson Godsey}
+\date{\today}
+\title{practice for final exam}
+\hypersetup{
+ pdfauthor={Jackson Godsey},
+ pdftitle={practice for final exam},
+ pdfkeywords={},
+ pdfsubject={},
+ pdfcreator={Emacs 28.1 (Org mode 9.5.2)}, 
+ pdflang={English}}
+\begin{document}
+
+\maketitle
+
+\section{Class stuff}
+\label{sec:orgd1d9f42}
+\begin{verbatim}
+class AlaskaToys:
+  def __init__(self, id, type, name, season):
+    self.id = id
+    self.type = type
+    self.name = name
+    self.season = season
+ toy1 = AlaskaToys(2, 'Wheel', 'ATV', 'Fall')
+ print('{} {} {} {}'.format(toy1.id, toy1.type, toy1.name, toy1.season))
+\end{verbatim}
+\begin{enumerate}
+\item What is the class?
+\label{sec:org436cb2f}
+\begin{enumerate}
+\item The class is \texttt{AlaskaToys}
+\label{sec:org8b84ff7}
+\end{enumerate}
+\item What is the instance?
+\label{sec:org67a9911}
+\begin{enumerate}
+\item The instance is the \texttt{toy1} object
+\label{sec:orga508a71}
+\end{enumerate}
+\end{enumerate}
+
+
+\section{Try block}
+\label{sec:org8cc6207}
+\begin{verbatim}
+try:
+  a = 4
+  b = 5
+  print(c)
+except:
+  print("What is C?")
+\end{verbatim}
+\begin{enumerate}
+\item What is the result  of this code?
+\label{sec:org9113925}
+\begin{enumerate}
+\item The except block is ran because the variable \texttt{c} is not defined
+\label{sec:org8a48506}
+\end{enumerate}
+\end{enumerate}
+
+
+\section{Opening a file}
+\label{sec:org5511904}
+\begin{verbatim}
+filedate = open('somefile.txt')
+\end{verbatim}
+\end{document}

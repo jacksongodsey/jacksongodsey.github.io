@@ -1,0 +1,146 @@
+% Created 2022-04-26 Tue 16:55
+% Intended LaTeX compiler: pdflatex
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{longtable}
+\usepackage{wrapfig}
+\usepackage{rotating}
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{capt-of}
+\usepackage{hyperref}
+\author{Jackson Godsey}
+\date{\today}
+\title{practice for final exam}
+\hypersetup{
+ pdfauthor={Jackson Godsey},
+ pdftitle={practice for final exam},
+ pdfkeywords={},
+ pdfsubject={},
+ pdfcreator={Emacs 28.1 (Org mode 9.5.2)}, 
+ pdflang={English}}
+\begin{document}
+
+\maketitle
+
+\section{Class stuff}
+\label{sec:orga9665fa}
+\begin{verbatim}
+class AlaskaToys:
+  def __init__(self, id, type, name, season):
+    self.id = id
+    self.type = type
+    self.name = name
+    self.season = season
+ toy1 = AlaskaToys(2, 'Wheel', 'ATV', 'Fall')
+ print('{} {} {} {}'.format(toy1.id, toy1.type, toy1.name, toy1.season))
+\end{verbatim}
+\begin{enumerate}
+\item What is the class?
+\label{sec:org5689c65}
+\begin{enumerate}
+\item The class is \texttt{AlaskaToys}
+\label{sec:org2b6ac71}
+\end{enumerate}
+\item What is the instance?
+\label{sec:org4f92d97}
+\begin{enumerate}
+\item The instance is the \texttt{toy1} object
+\label{sec:org0011528}
+\end{enumerate}
+\end{enumerate}
+
+
+\section{Try block}
+\label{sec:org6f911bd}
+\begin{verbatim}
+try:
+  a = 4
+  b = 5
+  print(c)
+except:
+  print("What is C?")
+\end{verbatim}
+\begin{enumerate}
+\item What is the result  of this code?
+\label{sec:org3eb83bf}
+\begin{enumerate}
+\item The except block is ran because the variable \texttt{c} is not defined
+\label{sec:org5029546}
+\end{enumerate}
+\end{enumerate}
+
+
+\section{Opening a file}
+\label{sec:org0a2f0c6}
+\begin{verbatim}
+filedate = open('somefile.txt')
+\end{verbatim}
+
+\section{Print contents of a file}
+\label{sec:org775f6d5}
+\begin{verbatim}
+Contents of file 'data.txt':
+Alex
+25
+
+thedata = open('data.txt')
+data = thedata.read()
+print(data)
+thedata.close()
+
+# Get specific items from the file
+
+Contents of file 'data.txt':
+Alex
+25
+
+# gets alex from the file
+thedata = open('data.txt')
+data = thedata.readline()
+print(data)
+thedata.close()
+\end{verbatim}
+
+\section{What is a \texttt{csv} file?}
+\label{sec:orgcd8f9e1}
+\begin{enumerate}
+\item Comma Seperated Values
+\label{sec:orgd18dd40}
+\begin{enumerate}
+\item Ex. \texttt{a, b, c}
+\label{sec:orgc57054b}
+\end{enumerate}
+\end{enumerate}
+
+\section{Get data from a \texttt{csv} file}
+\label{sec:orgfeb3c43}
+\begin{verbatim}
+Contents of file 'data.csv':
+Price, Pound, Cost
+5.29, 3.5, 18.52
+15.95, 1.15, 18.34
+
+import csv
+with open('data.csv', 'r+') as thedata:
+  rowdata = csv.reader(thedata)
+  for row in rowdata:
+    print(row)
+\end{verbatim}
+
+
+\section{Plot data}
+\label{sec:orgeafea6f}
+\begin{verbatim}
+num = [60, 70, 80, 90]
+grade = ['D', 'C', 'B', 'A']
+
+import numpy as num
+import matplotlib.pyplot as mathplot
+mathplot.plot(num, grade)
+mathplot.show()
+\end{verbatim}
+\end{document}

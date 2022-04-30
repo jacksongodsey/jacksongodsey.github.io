@@ -1,0 +1,9 @@
+* Default
+** redstar
+ - path :: ~
+* No Perspective
+** .emacs.d
+ - path :: ~/.emacs.d
+* No Tab
+** .emacs.d
+ - path :: ~/.emacs.d

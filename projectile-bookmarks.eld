@@ -1,0 +1,1 @@
+("~/golearning/" "~/jacksongodsey.github.io/" "~/ComputerScience/" "~/neovide/" "~/rust-analyzer/" "~/ruststuff/")
