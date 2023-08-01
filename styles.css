@@ -17,3 +17,11 @@ body {
     margin: 20px;
     font-weight: 400;
 }
+
+.text {
+    color: #839496;
+    text-align: left-align;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 40px 20px 15px 25px;
+}
