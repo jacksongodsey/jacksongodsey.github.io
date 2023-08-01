@@ -1,9 +1,11 @@
-* {
+@font-face {
+    font-family: Inter;
+    src: url("fonts/Inter-VariableFont_slnt,wght.ttf")
 }
 
 body {
     background-color: #DDE6ED;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 
 .header {
@@ -22,25 +24,30 @@ body {
     font-weight: 400;
 }
 
-.text,
-.under-construction {
-    line-height: 1.5;
+.text-box {
     display: block;
-    color: #9DB2BF;
+    border: 2px solid #27374D;
+    background-color: #27374D;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.text-box .text,
+.text-box .under-construction {
+    line-height: 1.5;
+    color: #DDE6ED;
     text-align: left-align;
     font-size: 20px;
     font-weight: 400;
-    margin-top: 20px;
     padding-top: 20px;
     padding-left: 40px;
     padding-bottom: 20px;
     padding-right: 40px;
-    border: 2px solid #27374D;
-    background-color: #27374D;
-    border-radius: 10px;
 }
 
-.under-construction {
+.text-box .under-construction {
     text-align: center;
 }
 
