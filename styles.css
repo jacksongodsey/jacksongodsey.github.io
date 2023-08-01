@@ -22,12 +22,13 @@ body {
     font-weight: 400;
 }
 
-.text {
+.text,
+.under-construction {
     line-height: 1.5;
     display: block;
     color: #9DB2BF;
     text-align: left-align;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 400;
     margin-top: 20px;
     padding-top: 20px;
@@ -37,6 +38,10 @@ body {
     border: 2px solid #27374D;
     background-color: #27374D;
     border-radius: 10px;
+}
+
+.under-construction {
+    text-align: center;
 }
 
 .navbar {
@@ -65,7 +70,23 @@ body {
 .nav-list-right li a {
   color: #27374D;
   text-decoration: none;
-  font-size: 30px;
+  font-size: 28px;
   font-weight: 800;
 }
 
+.links {
+    justify-content: space-between;
+    background-color: #9DB2BF;
+    overflow: hidden;
+    width: fit-content;
+    border: 2px solid #9DB2BF;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.links img {
+    padding-top: 2px;
+    width: 40px;
+    height: auto;
+}
