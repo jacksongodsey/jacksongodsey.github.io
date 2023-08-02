@@ -13,15 +13,14 @@ body {
     text-align: center;
     font-size: 40px;
     font-weight: 800;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .header .subheader {
-    color: #839496;
+    color: #DDE6ED;
     text-align: center;
-    font-size: 24px;
-    margin: 20px;
-    font-weight: 400;
+    font-size: 30px;
+    font-weight: 600;
 }
 
 .text-box {
@@ -35,7 +34,8 @@ body {
 }
 
 .text-box .text,
-.text-box .under-construction {
+.text-box .under-construction,
+.text-box a {
     line-height: 1.5;
     color: #DDE6ED;
     text-align: left-align;
@@ -49,6 +49,10 @@ body {
 
 .text-box .under-construction {
     text-align: center;
+}
+
+.text-box a {
+    text-decoration: none;
 }
 
 .navbar {
@@ -93,7 +97,18 @@ body {
 }
 
 .links img {
-    padding-top: 2px;
+    padding-top: 3px;
     width: 40px;
+    height: auto;
+}
+
+.text-box .blogs {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.text-box .blogs img {
+    width: 120px;
     height: auto;
 }
